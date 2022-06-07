@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.NewsFeed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.NewsBlock {
+  border: 5px solid #282c34;
+  border-radius: 25px;
+  width: 60%;
+  height: fit-content;
+  margin: auto;
+  background-color: #0a060621;
+}
+
+.NewsBlock p {
+  padding: 0px 20px;
+}
+
+.Selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: end;
+  height: fit-content;
+}
+
+.SelectionBtn {
+  height: 100%;
+  display: flex;
+  align-items: end;
+  padding-bottom: 11px;
+}
+
+p.Author {
+  text-align: end;
+  font-style: italic;
+}
+
+p.ArticleTitle {
+  font-weight: bold;
+}
+
+.ArticleTags {
+  display: flex;
+  flex-direction: row;
+  padding: 7px;
+  gap: 15px;
+}
+
+.ArticleTag {
+  background-color: #282c34;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.ArticleTag:hover {
+  cursor: pointer;
+}
+
+.AddBtn {
+  background-color: #282c34;
+  color: #fff;
+}
+
+.AddBtnContainer {
+  position: fixed;
+  right: 30px;
+  top: 120px;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.NoArticles {
+  width: 100%;
+  height: 470px;
+  text-align: center;
+  line-height: 470px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
